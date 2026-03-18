@@ -1,11 +1,45 @@
 <!DOCTYPE html>  
 <html> 
   <head> 
-    <title>Tab title</title> 
-    <link rel="stylesheet" href="https://mtc44-creator.github.io/ITC101Webpage/style.css">
+    <title>mtc44ITCWS
+    </title> 
+    <link rel="stylesheet" href="style.css">
   </head> 
   <body> 
     <h1>Michael Craft </h1> 
+    <p id="date"></p>
+    <p id="greeting"></p><p id="greeting"></p>
+
+<script>
+    document.getElementById("greeting").textContent = "Welcome to Michael's website";
+</script>
+
+<script>
+</script>
+    <h2>Major</h2>
+    <p> 
+        I am a psychology major taking this course as an elective.
+        This course is super cool, but also super confusing. 
+        I probably won't use most of this stuff after I'm done with the course.
+        Still really interesting stuff, just not quite enough relevance to my major.
+    </p>
+    <h3>From</h3>
+    <p> I'm from all over, but most recently lived in Rexburg before coming to BYU. 
+        I've lived in Minnesota 3 times.
+         Texas twice.
+         Tennessee, Mississippi, and Idaho once.
+         I've also lived in Edmonton, Canada once. Those guys get a lot of snow up there.
+    </p>
+    <h4>Hobbies</h4>
+    <p> I like playing video games, watching tv, and going to sports events.
+        My favorite sports events to go to are BYU football and basketball games.
+        My favorite video games are Fortnite, Rocket League, and NCAA25.
+        My favorite shows are Invincible, Attack on Titan, and Avatar The Last Airbender.
+    </p>
     <br>
   </body> 
-</html> 
+  <script>
+    const now = new Date();
+    document.getElementById("date").textContent = now.toLocaleString();
+</script>
+</html>
